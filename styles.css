@@ -284,9 +284,15 @@ footer {
 }
 
 @media (max-width: 550px) {
-  .hero h1 {
-    font-size: 1.5rem;
-  }
+ .hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), /* optional overlay */
+    url('images/website_header.jpg') center center / cover no-repeat;
+  padding: 4rem 2rem 3rem 2rem;
+  text-align: center;
+  color: #fff; /* white text for contrast */
+}
+.hero h1, .hero p { color: #fff; }
   .about h2,
   .programs h2,
   .gallery h2,
